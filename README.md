@@ -162,6 +162,10 @@ flowchart LR
     Spring --> MySQL["MySQL bringup DB"]
 ```
 
+### 플로우차트 이미지
+
+![Bring-Up Flow Chart](imagefile/BringUp-FlowChart.png)
+
 ## DB 설계 요약
 
 `bring_up.sql`에는 채용 플랫폼에 필요한 주요 도메인 테이블과 관계가 정의되어 있습니다.
@@ -260,16 +264,3 @@ Gulp 개발 서버는 `http://localhost:8080`으로 프록시하도록 설정되
 | `/company/review/corporation.html` | 기업 리뷰 |
 | `/company/review/interview.html` | 면접 리뷰 |
 | `/company/recommendation.html` | 인재 추천 |
-
-## 산출물
-
-### Flow Chart
-
-![Bring-Up Flow Chart](imagefile/BringUp-FlowChart.png)
-
-## 개선 예정
-
-- DB 접속 정보와 JWT secret key를 환경 변수 기반으로 분리
-- 회원가입/로그인 API와 화면 연동 흐름 고도화
-- 공고, 이력서, 리뷰, 상품 도메인별 CRUD API 확장
-- 테스트 코드와 예외 응답 포맷 보강
