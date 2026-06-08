@@ -7,7 +7,7 @@
 
 ## 🛠 기술 스택
 
-`Java 17` `Spring Boot 3.2` `Spring Security` `MyBatis` `MySQL` `Thymeleaf` `HTML` `CSS` `SCSS` `JavaScript` `Gulp` `Bootstrap`
+`Java 17` `Spring Boot 3.2` `Spring Security` `MyBatis` `MySQL` `Thymeleaf` `React` `HTML` `CSS` `SCSS` `JavaScript` `Gulp` `Bootstrap`
 
 ---
 
